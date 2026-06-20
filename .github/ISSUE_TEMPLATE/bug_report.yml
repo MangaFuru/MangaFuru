@@ -1,0 +1,90 @@
+name: Bug report
+description: Report a reproducible GoManga app problem.
+title: "[Bug]: "
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a GoManga issue. Remove passwords, private tokens, full cookies, paid content, and personal information before posting.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Reader
+        - Manga Detail
+        - Library
+        - Lists
+        - Sources / Repositories
+        - Downloads / Backup
+        - Settings
+        - Launch
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Blocks reading
+        - Major workflow broken
+        - Intermittent
+        - Cosmetic
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      placeholder: "1.0.0 (42)"
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS / iPadOS version
+      placeholder: "iOS 18.5"
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: "iPhone 16 Pro"
+  - type: input
+    id: source-host
+    attributes:
+      label: Source or host
+      description: Public information only. Do not paste cookies, tokens, usernames, or passwords.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics or screenshots
+      description: Attach only data you are allowed to share. Remove secrets and personal information first.
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, private tokens, full cookies, paid content, and personal information before posting.
+          required: true
