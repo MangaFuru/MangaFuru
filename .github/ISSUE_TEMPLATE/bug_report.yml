@@ -1,6 +1,6 @@
-name: Bug report
-description: Report a reproducible GoManga app problem.
-title: "[Bug]: "
+name: GoManga bug report
+description: Report a reproducible GoManga app bug or workflow problem.
+title: "[Bug] "
 labels:
   - bug
   - needs-triage
@@ -8,11 +8,22 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a GoManga issue. Remove passwords, private tokens, full cookies, paid content, and personal information before posting.
+        Thanks for reporting a GoManga issue. Search existing issues first, then fill in the fields below with enough detail to reproduce the problem.
+
+        Remove passwords, private tokens, full cookies, paid content, personal information, and private diagnostics before posting.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the problem in one or two sentences.
+      placeholder: "Example: Reader shows a blank page after moving to the next chapter."
+    validations:
+      required: true
   - type: dropdown
     id: area
     attributes:
       label: Area
+      description: Choose the closest area where the issue happens.
       options:
         - Reader
         - Manga Detail
@@ -29,6 +40,7 @@ body:
     id: severity
     attributes:
       label: Severity
+      description: Choose the impact that best matches the issue.
       options:
         - Blocks reading
         - Major workflow broken
@@ -41,21 +53,27 @@ body:
     attributes:
       label: App version
       placeholder: "1.0.0 (42)"
+    validations:
+      required: true
   - type: input
     id: os-version
     attributes:
       label: iOS / iPadOS version
       placeholder: "iOS 18.5"
+    validations:
+      required: true
   - type: input
     id: device
     attributes:
       label: Device
       placeholder: "iPhone 16 Pro"
+    validations:
+      required: true
   - type: input
     id: source-host
     attributes:
-      label: Source or host
-      description: Public information only. Do not paste cookies, tokens, usernames, or passwords.
+      label: Source or host, if relevant
+      description: Public information only. Do not paste cookies, tokens, usernames, passwords, or private URLs.
   - type: textarea
     id: steps
     attributes:
@@ -70,17 +88,33 @@ body:
     id: expected
     attributes:
       label: Expected result
+      placeholder: "What should GoManga have done?"
+    validations:
+      required: true
   - type: textarea
     id: actual
     attributes:
       label: Actual result
+      placeholder: "What happened instead? Include visible error messages if any."
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency
+      options:
+        - Always
+        - Often
+        - Sometimes
+        - Once
     validations:
       required: true
   - type: textarea
     id: diagnostics
     attributes:
-      label: Diagnostics or screenshots
-      description: Attach only data you are allowed to share. Remove secrets and personal information first.
+      label: Screenshots or diagnostics
+      description: Attach only data you are allowed to share. Remove secrets, private source data, and personal information first.
+      placeholder: "Add screenshots, crash details, or a short diagnostic summary if useful."
   - type: checkboxes
     id: privacy-check
     attributes:

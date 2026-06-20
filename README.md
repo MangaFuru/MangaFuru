@@ -4,13 +4,45 @@ This repository is the public issue intake surface for GoManga app reports.
 
 ## Report a Problem
 
-Use the guided support form:
+Use the GitHub Issues page:
+
+https://github.com/go-manga/GoMangaApp/issues
+
+Click **New issue**, choose **GoManga bug report**, and fill in the template. The public support page can help you prepare the details before posting:
 
 https://go-manga.github.io/support.html
 
-Or open an issue directly:
+## Report Template
 
-https://github.com/go-manga/GoMangaApp/issues/new/choose
+Use the GitHub issue form whenever possible. If you need to prepare the report elsewhere first, use this structure:
+
+```markdown
+### Summary
+
+### Area
+Reader / Manga Detail / Library / Lists / Sources / Downloads / Settings / Launch / Other
+
+### App version
+
+### iOS / iPadOS version
+
+### Device
+
+### Steps to reproduce
+1.
+2.
+3.
+
+### Expected result
+
+### Actual result
+
+### Frequency
+Always / Often / Sometimes / Once
+
+### Screenshots or diagnostics
+Remove secrets and personal information before attaching anything.
+```
 
 ## Before Posting
 
