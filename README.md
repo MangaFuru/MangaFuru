@@ -14,9 +14,9 @@
 
 ---
 
-這個 repository 是 **GoManga App 的公開問題回報入口**。GoManga 是為 iOS 打造的本機優先漫畫閱讀器：不代管漫畫內容、不追蹤你，來源由你自行設定。
+這個 repository 是 **GoManga App 的公開問題回報入口**。GoManga 是為 iOS 打造的本機優先漫畫閱讀器：不代管漫畫內容，書庫留在你的裝置，來源由你自行設定。
 
-> This repository is the **public issue intake** for the GoManga app — a local-first iOS manga reader that hosts no content, doesn't track you, and reads only the sources you configure yourself.
+> This repository is the **public issue intake** for the GoManga app — a local-first iOS manga reader that hosts no content, keeps your library on your device, and reads only the sources you configure yourself.
 
 ## 回報問題 · Report a problem
 
