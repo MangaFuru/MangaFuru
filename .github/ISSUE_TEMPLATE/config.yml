@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: GoManga support form
-    url: https://go-manga.github.io/GoMangaApp/
+    url: https://go-manga.github.io/support.html
     about: Use the guided support form to generate a complete bug report.
   - name: Privacy policy
     url: https://go-manga.github.io/privacy.html
