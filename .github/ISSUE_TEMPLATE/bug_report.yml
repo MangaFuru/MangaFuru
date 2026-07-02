@@ -1,5 +1,5 @@
-name: GoManga bug report
-description: Report a reproducible GoManga app bug or workflow problem.
+name: MangaFuru bug report
+description: Report a reproducible MangaFuru app bug or workflow problem.
 title: "[Bug] "
 labels:
   - bug
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a GoManga issue. Search existing issues first, then fill in the fields below with enough detail to reproduce the problem.
+        Thanks for reporting a MangaFuru issue. Search existing issues first, then fill in the fields below with enough detail to reproduce the problem.
 
         Remove passwords, private tokens, full cookies, paid content, personal information, and private diagnostics before posting.
   - type: textarea
@@ -88,7 +88,7 @@ body:
     id: expected
     attributes:
       label: Expected result
-      placeholder: "What should GoManga have done?"
+      placeholder: "What should MangaFuru have done?"
     validations:
       required: true
   - type: textarea

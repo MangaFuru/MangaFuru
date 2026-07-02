@@ -1,17 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GoManga support guide
-    url: https://go-manga.github.io/support.html
+  - name: MangaFuru support guide
+    url: https://mangafuru.github.io/support.html
     about: Read what to include before opening a public issue, and build a ready-to-paste draft.
   - name: FAQ
-    url: https://go-manga.github.io/faq.html
+    url: https://mangafuru.github.io/faq.html
     about: Sources, content, data, and reporting boundaries.
   - name: Privacy policy
-    url: https://go-manga.github.io/privacy.html
-    about: How GoManga handles local data and user-submitted diagnostics.
+    url: https://mangafuru.github.io/privacy.html
+    about: How MangaFuru handles local data and user-submitted diagnostics.
   - name: Terms of use
-    url: https://go-manga.github.io/terms.html
-    about: The GoManga usage terms.
+    url: https://mangafuru.github.io/terms.html
+    about: The MangaFuru usage terms.
   - name: Privacy or legal contact (email)
     url: mailto:gomanga.support@gmail.com
     about: For privacy or legal matters that should not be filed as a public issue.
