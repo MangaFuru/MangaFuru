@@ -2,21 +2,28 @@
   <img src="assets/mangafuru-banner.png" alt="MangaFuru" width="100%">
 </p>
 
-<h1 align="center">MangaFuru · Issue Intake</h1>
+<h1 align="center">Manga Furu</h1>
 
 <p align="center">
-  <b>回報 MangaFuru App 的問題與 bug</b> &nbsp;·&nbsp; <b>Report bugs and issues for the MangaFuru app</b><br>
-  <a href="https://mangafuru.github.io">Website</a> &nbsp;·&nbsp;
-  <a href="https://github.com/MangaFuru/MangaFuru/issues">Issues</a> &nbsp;·&nbsp;
-  <a href="https://mangafuru.github.io/privacy.html">Privacy</a> &nbsp;·&nbsp;
-  <a href="https://mangafuru.github.io/terms.html">Terms</a>
+  <b>你的漫畫，接著讀。</b><br>
+  <b>Your manga. Pick up where you left off.</b>
+</p>
+
+<p align="center">
+  <a href="https://mangafuru.github.io/">Manga Furu 官網 · Website</a> &nbsp;·&nbsp;
+  <a href="https://apps.apple.com/app/id6786539287">App Store</a> &nbsp;·&nbsp;
+  <a href="https://github.com/MangaFuru/MangaFuru/issues">問題回報 · Issues</a>
 </p>
 
 ---
 
-這個 repository 是 **MangaFuru App 的公開問題回報入口**。MangaFuru 是為 iOS 打造的本機優先漫畫閱讀器：不代管漫畫內容，書庫留在你的裝置，來源由你自行設定。
+MangaFuru 是為 iPhone 與 iPad 打造的漫畫閱讀器。把漫畫、條漫和電子書收進同一個書庫，從上次停下的地方繼續閱讀。匯入自己的 CBZ 漫畫、EPUB 電子書與 PDF，或連接自己的 Komga 書庫。
 
-> This repository is the **public issue intake** for the MangaFuru app — a local-first iOS manga reader that hosts no content, keeps your library on your device, and reads only the sources you configure yourself.
+MangaFuru keeps your manga, webtoons and ebooks together on iPhone and iPad. Build your library and pick up where you left off. Import your CBZ comics, EPUB ebooks and PDFs, or connect your own Komga library.
+
+這裡是 MangaFuru 的公開問題回報入口。需要上手教學？先看[使用指南](https://mangafuru.github.io/zh-hant/getting-started.html)；遇到問題則可依照下方步驟回報。
+
+This is MangaFuru's public issue tracker. For setup help, start with the [getting-started guide](https://mangafuru.github.io/en/getting-started.html). To report a problem, follow the steps below.
 
 ## 回報問題 · Report a problem
 
